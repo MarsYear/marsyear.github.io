@@ -11,6 +11,72 @@ author: MarsYear
 language: en
 timezone: ''
 
+# 作者
+avatar:
+  url: /images/avatar.png
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+# 收付款
+reward:
+  enable: true
+  comment: 如果愿意，打赏一杯咖啡的钱(〃'▽'〃)
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/wechatCost.png
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+
+# 讨论
+comment:
+  candidates:
+    - waline
+    # - giscus
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/MarsYear/marsyear.github.io/discussions" target="_blank">GitHub Discussions</a> 与我讨论。
+
+# 评论
+waline:
+  enable: true
+  serverURL: https://marsyear-github-io-q0qfhary1-marsyear.vercel.app/
+  visitor: true
+  comment: true
+  # avatarCDN: https://cdn.v2ex.com/gravatar/
+  placeholder: 不水一句吗？^_^
+  requiredFields: ["nick"]
+
+# 主题色
+colors:
+  # primary: "#6200ee"
+  # bg: "#F5F5F5"
+  selection_bg: "#8e71c1" # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+
+# 标签颜色
+tags:
+  HTML: "#8892BF"
+  CSS: "#5298d1"
+  JavaScript: "#F4DF4F"
+  TypeScript: "#317AC6"
+  React: "#61dafb"
+
+# 为分类指定色彩
+categories:
+  HTML: "#8892BF"
+
+# 网站图标
+favicon: 
+  medium: /images/gd.ico
+
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://example.com
