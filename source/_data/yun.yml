@@ -3,13 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: MarsYear的小站
+title: MarsYearの怪盗團
 subtitle: ''
 description: ''
 keywords:
 author: MarsYear
 language: en
 timezone: ''
+
+# 网站图标
+favicon: /images/gd.ico
 
 # 作者
 avatar:
@@ -25,7 +28,7 @@ reward:
   comment: 如果愿意，打赏一杯咖啡的钱(〃'▽'〃)
   methods:
     - name: 支付宝
-      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      path: /images/zfb.png
       color: "#00A3EE"
       icon: icon-alipay-line
     - name: 微信支付
@@ -44,10 +47,10 @@ comment:
 # 评论
 waline:
   enable: true
-  serverURL: https://marsyear-github-io-q0qfhary1-marsyear.vercel.app/
+  serverURL: https://waline.yunyoujun.cn
   visitor: true
   comment: true
-  # avatarCDN: https://cdn.v2ex.com/gravatar/
+  avatarCDN: https://cdn.v2ex.com/gravatar/
   placeholder: 不水一句吗？^_^
   requiredFields: ["nick"]
 
@@ -71,11 +74,6 @@ tags:
 # 为分类指定色彩
 categories:
   HTML: "#8892BF"
-
-# 网站图标
-favicon: 
-  medium: /images/gd.ico
-
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
