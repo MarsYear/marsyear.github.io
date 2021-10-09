@@ -47,10 +47,10 @@ comment:
 # 评论
 waline:
   enable: true
-  serverURL: https://waline.yunyoujun.cn
+  serverURL: https://marsyear-github-io-8bv9xoja9-marsyear.vercel.app/
   visitor: true
   comment: true
-  avatarCDN: https://cdn.v2ex.com/gravatar/
+  # avatarCDN: https://cdn.v2ex.com/gravatar/
   placeholder: 不水一句吗？^_^
   requiredFields: ["nick"]
 
