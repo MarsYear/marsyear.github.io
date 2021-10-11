@@ -11,6 +11,25 @@ author: MarsYear
 language: en
 timezone: ''
 
+# 标语
+banner:
+  enable: true
+  title:
+    - Mars
+    - Year
+    - の
+    - 怪
+    - 盗
+    - 團
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
 # 网站图标
 favicon: /images/gd.ico
 
@@ -46,7 +65,7 @@ comment:
 
 # 评论
 waline:
-  enable: true
+  enable: false
   serverURL: https://marsyear-github-io-8bv9xoja9-marsyear.vercel.app/
   visitor: true
   comment: true
@@ -74,6 +93,23 @@ tags:
 # 为分类指定色彩
 categories:
   HTML: "#8892BF"
+
+# 尾部
+footer:
+  since: 2021
+  icon:
+    url: https://sponsors.yunyoujun.cn
+    title: 云游君的赞助者们
+  beian:
+    enable: false
+    icp: 苏ICP备17038157号
+  support:
+    enable: false
+    title: 
+    link: https://www.upyun.com
+    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+    prefix: 本网站由
+    suffix: 提供 CDN 加速
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
